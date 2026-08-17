@@ -4,6 +4,15 @@
 
 Perception encoding for Z_in side of Dual-DB JEPA
 
+<p align="center"><img src="assets/images/perception.png" alt="Perception encoding — the world into vectors" width="720"></p>
+
+```mermaid
+graph LR
+    W[The world<br/>sensors · readings] -->|SensorReading| E[Encoder<br/>Raw · Normalized · Hash · Random · Learned]
+    E -->|to_raw_vector| Z[Z_in vector<br/>value · confidence · timestamp]
+    Z --> N[The nervous system<br/>what the room feels]
+```
+
 ---
 
 ## Quick Start
