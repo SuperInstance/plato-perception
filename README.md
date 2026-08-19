@@ -4,6 +4,8 @@
 
 Perception encoding for Z_in side of Dual-DB JEPA
 
+<p align="center"><img src="assets/images/hero.jpg" alt="Z_in — the world arriving as one calm thread of light" width="640"></p>
+
 <p align="center"><img src="assets/images/perception.png" alt="Perception encoding — the world into vectors" width="720"></p>
 
 ```mermaid
